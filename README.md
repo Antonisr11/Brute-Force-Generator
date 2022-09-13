@@ -61,12 +61,12 @@ We can print current combination with generateCurrent() method.
 
 	example
 		generator = BruteForceGenerator(vocabulary=BruteForceGenerator.NUMBERS, max_length=3)
-    		print(generator.generateNext())
-    		print(generator.generateCurrent())
-    		print(generator.generateCurrent())
-    		print(generator.generateNext())
-    		print(generator.generateNext())
-    		print(generator.generateCurrent())
+    	print(generator.generateNext())
+    	print(generator.generateCurrent())
+    	print(generator.generateCurrent())
+    	print(generator.generateNext())
+    	print(generator.generateNext())
+    	print(generator.generateCurrent())
 	
 	results
 		0
