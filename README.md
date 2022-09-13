@@ -3,7 +3,7 @@ Generate every possible combination from a given vocabulary **without randomness
 
 ## Arguments 
 
-## 1. vocabulary (**mandatory**)
+### 1. vocabulary (**mandatory**)
 > Vocabulary must take a list (or tuple) of characters which it will use to create combinations. For instance if we provide only numbers in that list, all results will contain only numbers.
 
 **BruteForceGenerator provides some ready vocabularies such as English Letters, Greek Letters, Numbers, Special Characters.**
@@ -18,7 +18,7 @@ Generate every possible combination from a given vocabulary **without randomness
 		generator = BruteForceGenerator(vocabulary=BruteForceGenerator.ENGLISH_LETTERS + BruteForceGenerator.SPECIAL_CHARACTERS + BruteForceGenerator.NUMBERS)
 
 
-2. max_length
+### 2. max_length
 > Max_length must take a number greater than 0 and presents 
 
 > For instance if max_length is set 2 and vocabulary is only numbers, BruteForceGenerator will produce 1, 2, 3, .., 98, 99. 
