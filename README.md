@@ -44,7 +44,7 @@ We can create a BruteForceGenerator instance and produce each combination with g
 
 	example
 		generator = BruteForceGenerator(vocabulary=BruteForceGenerator.NUMBERS, max_length=3)
-    		for _ in range(0, 1111):
+    	for _ in range(0, 1111):
         	    print(generator.generateNext())
 	result
 		0
